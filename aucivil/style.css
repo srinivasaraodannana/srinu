@@ -309,10 +309,11 @@ a img.aligncenter {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
-  background: #eea412;
+  height: 100%;
+  background: #f3d279;
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3d5mx70JzwKq3z-NjOzXxAN-Ta5ieDxVgaw1o4J4gi13ppfmVeK7dJBCjspMPdsKpbsjQ2o2THy-xKICtHddxVZM6OryYWZTvORAec1mNUMC_3HAaltatV0_pgQcK-5YZnuwpTN9UoBFwvC8LS6mRZiDg=w798-h663-no?authuser=0');
   z-index: -1;
-  transition: top 1.2s linear 3.1s;
+  transition: top 1.s linear 2.0s;
 }
 .loader-container:after {
   content: '';
@@ -321,9 +322,9 @@ a img.aligncenter {
   left: 0;
   width: 100%;
   height: 50%;
-  background: #eea412;
-  z-index: -1;
-  transition: bottom 1.2s linear 3.1s;
+
+  
+  transition: bottom 1.s linear 2.1s;
 }
 .loader-container.done:before {
   top: -50%;
@@ -466,7 +467,7 @@ a img.aligncenter {
 
 
 .top-navbar .bg-light{
-	background: #4c5a7d !important;
+	background: #141e38 !important;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
@@ -562,7 +563,7 @@ a img.aligncenter {
 	left: 40%;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	color: #eea412;
+	color: #f3d279;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link::after{
 	opacity: 1;
@@ -578,7 +579,7 @@ a img.aligncenter {
 	left: 40%;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	color: #eea412;
+	color: #f3d279;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover::after{
 	opacity: 1;
@@ -623,7 +624,7 @@ a img.aligncenter {
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu a:hover{
-	background: #eea412;
+	background: #f3d279;
 	color: #ffffff;
 }
 
@@ -642,7 +643,7 @@ a img.aligncenter {
 
 .navbar-right li a.hover-btn-new::before,
 .navbar-right li a.hover-btn-new::after {
-  background: #eea412;
+  background: #f3d279;
   content: '';
   position: absolute;
   z-index: 1;
@@ -695,7 +696,7 @@ a img.aligncenter {
 }
 
 .navbar-toggler:hover{
-	background: #eea412;
+	background: #f3d279;
 }
 
 .navbar-toggler:hover .icon-bar{
@@ -710,7 +711,7 @@ a img.aligncenter {
 
 .box-slider .carousel-control-prev{
 	border-radius: 2px;
-	background: #eea412;
+	background: #f3d279;
 	position: absolute;
 	left: 0px;
 	font-size: 38px;
@@ -722,7 +723,7 @@ a img.aligncenter {
 }
 .box-slider .carousel-control-next{
 	border-radius: 2px;
-	background: #eea412;
+	background: #f3d279;
 	position: absolute;
 	right: 0px;
 	font-size: 38px;
@@ -760,7 +761,7 @@ a img.aligncenter {
 }
 
 .big-tagline a.hover-btn-new:hover span {
-  color: #eea412;
+  color: #f3d279;
 }
 
 .hover-btn-new::before {
@@ -771,7 +772,7 @@ a img.aligncenter {
 }
 
 .hover-btn-new::after {
-  background: #eea412 !important;
+  background: #f3d279 !important;
   height: 100%;
   left: 0;
   top: 0;
@@ -808,7 +809,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .dbcolor{
-	background: #eea412;
+	background: #f3d279;
 }
 
 .parallax {
@@ -900,7 +901,7 @@ a img.aligncenter {
 }
 
 .orange{
-	border-color: #eea412;
+	border-color: #f3d279;
 }
 
 .first-section {
@@ -933,7 +934,7 @@ a img.aligncenter {
 }
 
 .first-section h2 strong{
-	color: #eea412;
+	color: #f3d279;
 }
 
 .first-section .lead {
@@ -1062,7 +1063,7 @@ a img.aligncenter {
 }
 .message-box a.hover-btn-new::before,
 .message-box a.hover-btn-new::after {
-	background: #eea412;
+	background: #f3d279;
 	content: '';
 	position: absolute;
 	z-index: 1;
@@ -1125,7 +1126,7 @@ a img.aligncenter {
 }
 .icon-box-hmv i{
 	font-size: 60px;
-	color: #eea412;
+	color: #f3d279;
 }
 .inner-hmv h3{
 	font-size: 28px;
@@ -1143,13 +1144,13 @@ a img.aligncenter {
 }
 
 .inner-hmv:hover .icon-box-hmv{
-	border: 3px solid #eea412;
+	border: 3px solid #f3d279;
 }
 .inner-hmv:hover .icon-box-hmv i{
 	color: #4babb1;
 }
 .inner-hmv:hover h3{
-	color: #eea412;
+	color: #f3d279;
 }
 .tr-pa{
 	font-size: 170px;
@@ -1323,7 +1324,7 @@ a img.aligncenter {
 }
 
 .desc h3 i {
-    color: #eea412;
+    color: #f3d279;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1418,158 +1419,30 @@ a img.aligncenter {
 
 
 /*------------------------------------------------------------------
-    PRICING TABLES
+   .chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+} PRICING TABLES
 -------------------------------------------------------------------*/
 
-.pricing-table {
-    margin: 0px;
-    background: #fff;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-	border-radius: 2px;
-}
-
-.pricing-table i {
-    width: 30px;
-    color: #c2c2c2;
-    display: inline-block;
-    margin-right: 10px;
-    padding-right: 5px;
-    border-right: 1px solid #ececec;
-}
-
-.pricing-table .btn-dark {
-    padding: 10px 24px;
-    font-size: 15px;
-}
-
-.pricing-table strong {
-    font-weight: 600;
-    margin-right: 6px;
-    color: #1f1f1f;
-}
-
-.pricing-table-header {
-    padding: 30px 0 25px 0;
-    background: #ffffff;
-	border-radius: 2px;
-}
-
-.pricing-table-header h2 {
-    font-size: 31px;
-    margin: 0;
-    padding: 0;
-    font-weight: 500;
-}
-
-.pricing-table-header h3 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #aaaaaa;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-
-.pricing-table-space {
-    height: 10px;
-}
-
-.pricing-table-text {
-    margin: 15px 30px 0 30px;
-    padding: 0 10px 15px 10px;
-    border-bottom: 1px solid #ececec;
-    font-weight: 300;
-    line-height: 30px;
-    color: #c2c2c2;
-    font-size: 16px;
-}
-
-.pricing-table-text p {
-    font-weight: 400;
-}
-
-.pricing-table-features {
-    margin: 15px 30px 0 30px;
-    padding: 0 10px 15px 30px;
-    border-bottom: 1px solid #ececec;
-    text-align: left;
-    line-height: 30px;
-    font-size: 16px;
-    color: #c2c2c2;
-}
-
-.pricing-table-highlighted h3,
-.pricing-table-highlighted h2 {
-    color: #ffffff !important;
-}
-
-.pricing-table-sign-up {
-    margin-top: 25px;
-    padding-bottom: 30px;
-}
-
-.pricing-table-sign-up a{}
-.pricing-table-sign-up a{
-	position: relative;
-	font-size: 18px;
-	display: inline-block;
-}
-.pricing-table-sign-up a,
-.pricing-table-sign-up a.hover-btn-new::after {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.pricing-table-sign-up a.hover-btn-new::before,
-.pricing-table-sign-up a.hover-btn-new::after {
-  background: #eea412;
-  content: '';
-  position: absolute;
-  z-index: 1;
-}
-
-.pricing-table-sign-up a.hover-btn-new:hover span {
-  color: #333333;
-}
-.pricing-table-sign-up a.hover-btn-new::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.pricing-table-sign-up a.hover-btn-new::after {
-  background: #333333 !important;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.pricing-table-sign-up a.hover-btn-new span{
-	position: relative;
-	z-index: 2;
-	color: #fff;
-}
-.pricing-table-sign-up a.hover-btn-new:hover:after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
-}
 
 
 
-.pricing-table:hover {
-	transform: scale(1.05,1.06);
-	-webkit-transform: scale(1.05,1.06);
-	-moz-transform: scale(1.05,1.06);
-	-o-transform: scale(1.05,1.06);
-	transition: 0.5s all ease;
-	-webkit-transition: 0.5s all ease;
-	-moz-transition: 0.5s all ease;
-	-o-transition: 0.5s all ease;
-	-ms-transition: 0.5s all ease;
-}
+
+
 
 /* Highlighted table */
 
@@ -1730,7 +1603,7 @@ a img.aligncenter {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #eea412;
+    color: #f3d279;
 }
 
 .message-box h2 {
@@ -2483,7 +2356,7 @@ select.mobile-device {
 .footer {
     padding: 90px 0 80px !important;
     color: #cccccc;
-	background:#4c5a7d url('images/world-map.png') no-repeat center; 
+	background:#141e38 url('images/world-map.png') no-repeat center; 
 }
 
 .footer .widget-title {
@@ -2658,7 +2531,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #eea412;
+	color: #f3d279;
 }
 .footer-links-soi{
 	margin: 0px;
@@ -2679,7 +2552,7 @@ select.mobile-device {
 	border-radius: 2px;
 }
 .footer-links-soi li a:hover{
-	background: #eea412;
+	background: #f3d279;
 }
 .footer-links-soi li a:hover i{
 	color: #ffffff;
@@ -2776,7 +2649,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #eea412;
+    background: #f3d279;
     z-index: 11000;
     position: fixed;
     display: block
@@ -2988,7 +2861,7 @@ span.m_1 {
 .pricingTable .pricingContent > i{
     font-size: 60px;
     margin-top: 20px;
-	color: #eea412;
+	color: #f3d279;
 }
 .pricingTable .pricingContent ul{
     list-style: none;
@@ -3080,7 +2953,7 @@ span.m_1 {
 
 .pricingTable-sign-up a.hover-btn-new::before,
 .pricingTable-sign-up a.hover-btn-new::after {
-  background: #eea412;
+  background: #f3d279;
   content: '';
   position: absolute;
   z-index: 1;
@@ -3140,7 +3013,7 @@ span.m_1 {
 
 .customer-box .nav-tabs > li > a.active{
 	border: none;
-	background: #eea412;
+	background: #f3d279;
 	color: #fff;
 	border-radius: 0px;
 }
@@ -3156,7 +3029,7 @@ span.m_1 {
 }
 
 .customer-box .nav-tabs > li > a:hover{
-	background: #eea412;
+	background: #f3d279;
 	color: #ffffff;
 	border: 0px;
 }
@@ -3428,7 +3301,7 @@ span.m_1 {
     color: #777;
 }
 .meta-info-blog > span > a {
-	color: #eea412;
+	color: #f3d279;
 }
 .meta-info-blog > span > a:hover {
 	color: #4babb1;
@@ -3448,7 +3321,7 @@ span.m_1 {
 	line-height: 35px;
 }
 .blog-button a.hover-btn-new::before, .blog-button a.hover-btn-new::after {
-    background: #eea412;
+    background: #f3d279;
     content: '';
     position: absolute;
     z-index: 1;
@@ -3496,7 +3369,7 @@ span.m_1 {
 	float: left;
 }
 .post-content .post-date .day{
-	background: #eea412;
+	background: #f3d279;
 	color: #FFFFFF;
 	font-size: 22px;
 	font-weight: 600;
@@ -3514,7 +3387,7 @@ blockquote {
     border-left: 5px solid #ffffff;
 }
 blockquote.default {
-    border-color: #eea412;
+    border-color: #f3d279;
     color: #666;
     background: #ffffff;
     font-size: inherit;
@@ -3534,7 +3407,7 @@ blockquote.default {
     width: 75%;
 }
 .author-desc{
-	background: #eea412;
+	background: #f3d279;
 	float: right;
 	height: 100%;
 	min-height: 100%;
@@ -3624,7 +3497,7 @@ blockquote.default {
     padding: 3px;
 }
 .comment-container {
-    border-top: 2px solid #eea412;
+    border-top: 2px solid #f3d279;
     margin: 0 0 15px 90px;
     padding: 20px 20px;
     position: relative;
@@ -3683,7 +3556,7 @@ a.link-style3 {
 }
 .post-btn{}
 .post-btn button.hover-btn-new::before, .post-btn button.hover-btn-new::after {
-    background: #eea412;
+    background: #f3d279;
     content: '';
     position: absolute;
     z-index: 1;
@@ -3751,7 +3624,7 @@ a.link-style3 {
     text-indent: -5555em;
     line-height: 100;
     overflow: hidden;
-    background: #eea412 url(images/search-icon.png) no-repeat center 14px;
+    background: #f3d279 url(images/search-icon.png) no-repeat center 14px;
     border: 0;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -3767,7 +3640,7 @@ a.link-style3 {
 	font-weight: 400;
 	padding: 0px;
 	margin-bottom: 15px;
-	border-right: 3px solid #eea412;
+	border-right: 3px solid #f3d279;
 }
 .widget-categories ul{
 	list-style: none;
@@ -3785,14 +3658,14 @@ a.link-style3 {
 	font-size: 13px;
 }
 .widget-categories ul li a:hover{
-	color: #eea412;
+	color: #f3d279;
 }
 .widget-tags .widget-title{
 	font-size: 18px;
 	font-weight: 400;
 	padding: 0px;
 	margin-bottom: 15px;
-	border-right: 3px solid #eea412;
+	border-right: 3px solid #f3d279;
 }
 .widget-tags .tags{
 	list-style: none;
@@ -3807,7 +3680,7 @@ a.link-style3 {
     line-height: 25px;
 }
 .tags li a {
-    border: 1px solid #eea412;
+    border: 1px solid #f3d279;
     color: #212121;
 	text-transform: capitalize;
     float: left;
@@ -3820,8 +3693,8 @@ a.link-style3 {
     transition: all 0.2s;
 }
 .tags li a:hover {
-	border-color: #eea412;
-	background: #eea412;
+	border-color: #f3d279;
+	background: #f3d279;
 	color: #ffffff;
 }
 
@@ -3842,7 +3715,7 @@ a.link-style3 {
     text-transform: capitalize;
 }
 .course-item:hover .course-title a {
-	color: #eea412;
+	color: #f3d279;
 }
 .course-br{
 	border: 1px solid #4babb1;
@@ -3867,7 +3740,7 @@ a.link-style3 {
 	font-size: 11px;
 }
 .course-meta-bot ul li:hover{
-	color: #eea412;
+	color: #f3d279;
 }
 
 
