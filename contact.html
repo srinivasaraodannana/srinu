@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  map</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js"></script>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<style>
+    #map{
+        align:left;
+        height: 500px;
+        width: 95%;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body class="host_version"> 
+
+<body class="host_version"> 
+
+    <!-- Modal -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header tit-up">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Customer Login</h4>
+            </div>
+            <div class="modal-body customer-box">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                    <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Login">
+                        <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="email1" placeholder="Name" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                        Submit
+                                    </button>
+                                    <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="Registration">
+                        <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" placeholder="Name" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="email" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="password" placeholder="Password" type="password">
+                                </div>
+                            </div>
+                            <div class="row">                           
+                                <div class="col-sm-10">
+                                    <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                        Save &amp; Continue
+                                    </button>
+                                    <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                        Cancel</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <header class="top-navbar" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://www.freelogoservices.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kifKFpB9PmRbNwXs1M3EMoAJtlSkqgPpp...Ps+" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-host">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">gallery</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="1st year gallery.html">first year</a>
+                                <a class="dropdown-item" href="2nd year details.html">second year </a>
+                                <a class="dropdown-item" href="2nd year details.htmll">third year </a>
+                                <a class="dropdown-item" href="2nd year details.html">fourth year </a>
+                                <a class="dropdown-item" href="gallery.html">all in one </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Student Details</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="1st year details.html">1st year </a>
+                                <a class="dropdown-item" href="2nd year details.html">2nd year </a>
+                                <a class="dropdown-item" href="2nd year details.html">3rd year </a>
+                                <a class="dropdown-item" href="2nd year details.html">4th year </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Time-Tables</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="timetable.html">1st year </a>
+                                <a class="dropdown-item" href="timetable.html">2nd year </a>
+                                <a class="dropdown-item" href="timetable.html">3rd year </a>
+                                <a class="dropdown-item" href="timetable.html">4th year </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Events</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                <a class="dropdown-item" href="birthday.html">birth days </a>
+                                <a class="dropdown-item" href="events.html">activities </a>
+                                <a class="dropdown-item" href="events.html">functions </a>
+                            </div>
+                        </li>
+                       
+                        <li class="nav-item"><a class="nav-link" href="files.html">information files</a></li>
+                        <li class="nav-item"><a class="nav-link" href="crs.html">CR'S list</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <div class="all-title-box">
+        <div class="container text-center">
+            <h1>Contact<span class="m_1">We always ready to help us.</span></h1>
+        </div>
+    </div>
+    <div id="contact" class="section wb">
+        <div class="container">
+    <div class="section-title text-center">
+        <h3>Need Help? Sure we are Online!</h3>
+        <p class="lead">Let us give you more details about the special offer website you want us. Please fill out the form below. <br>In case problem is not solved please inform to my number 9014083979</p>
+    </div><!-- end title -->
+
+
+    <div class="row">
+        <div class="col-xl-6 col-md-12 col-sm-12">
+    <div class="contact_form">
+        <div id="message"></div>
+        <form id="contactform" class="" action="contact.php" name="contactform" method="post">
+            <div class="row row-fluid">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                </div>
+                <div class="text-center pd">
+                    <button type="submit" value="SEND" id="submit" onclick="crs.html" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get a Quote</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d725.6028302337255!2d83.31950946938849!3d17.727198851483273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39434154a3506b%3A0x4b3d4e1ec25509f4!2sDepartment%20of%20Civil%20Engineering!5e0!3m2!1sen!2sin!4v1599466584860!5m2!1sen!2sin"  frameborder="0" style="border:10px;" allowfullscreen="" aria-hidden="false" tabindex="0" id="map"></iframe>
+
+  
+
+                   
+               
+</div><!-- end row -->
+</div><!-- end container -->
+</div><!-- end section -->
+
+
+
+
+<footer class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="widget clearfix">
+                <div class="widget-title">
+                    <h3>About US</h3>
+                </div>
+                <p> Dannana Srinivasa Rao<br>
+                    id=319106308013<br>
+                2019 to 2023 batch student</p>   
+                <div class="footer-right">
+                    <ul class="footer-links-soi">
+                        <li><a href="https://www.facebook.com/saisrinu.srinu143"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/srinivasa_rao_dannana"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/messages/857830994153439232-1142649885017030657"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/srinivasa_rao_dannana"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://www.instagram.com/srinivasa_rao_dannana"><i class="fa fa-pinterest"></i></a></li>
+                    </ul><!-- end links -->
+                </div>                      
+            </div><!-- end clearfix -->
+        </div><!-- end col -->
+
+        <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="widget clearfix">
+                <div class="widget-title">
+                    <h3>Helpers for page devlop </h3>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="">T.R.J PAVAM</a></li>
+                    <li><a href="#">DILEEP GOGADA</a></li>
+                    <li><a href="#">ISKUPALLI ADARSH</a></li>
+                    <li><a href="#">SHIVA GANESH</a></li>
+                    <li><a href="#">HARSHA</a></li>
+                </ul><!-- end links -->
+            </div><!-- end clearfix -->
+        </div><!-- end col -->
+        
+        <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="widget clearfix">
+                <div class="widget-title">
+                    <h3>Contact Details</h3>
+                </div>
+
+                <ul class="footer-links">
+                    <li><a href="mailto:#">srinu9676556564@gmail.com</a></li>
+                    <li><a href="#">www.srinudannana000webhostapp.com</a></li>
+                    <li>3-29,kapu street,sancham,ranastlam,srikakulam 532409</li>
+                    <li>+91 9014083979</li>
+                </ul><!-- end links -->
+            </div><!-- end clearfix -->
+        </div><!-- end col -->
+        
+    </div><!-- end row -->
+</div><!-- end container -->
+</footer><!-- end footer -->
+
+<div class="copyrights">
+<div class="container">
+    <div class="footer-distributed">
+        <div class="footer-center">                   
+            <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a href="#">Andhra University</a> Design By : <a href="https://html.design/">Srinivasa Rao Dannana</a></p>
+        </div>
+    </div>
+</div><!-- end container -->
+</div><!-- end copyrights -->
+
+
+
+<!-- Mapsed JavaScript -->
+
+
+<!-- ALL PLUGINS -->
+
+
+</body>
+</html>
