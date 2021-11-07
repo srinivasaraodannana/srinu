@@ -43,7 +43,15 @@
 
     <!-- Modernizer for Portfolio -->
     
-
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "f6e374b1-b213-47cf-a890-9e375e434b41",
+        });
+      });
+    </script>
    
 
 </head>
