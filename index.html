@@ -43,15 +43,15 @@
 
     <!-- Modernizer for Portfolio -->
     
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-      window.OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
-        OneSignal.init({
-          appId: "f6e374b1-b213-47cf-a890-9e375e434b41",
-        });
-      });
-    </script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "f6e374b1-b213-47cf-a890-9e375e434b41",
+    });
+  });
+</script>
    
 
 </head>
@@ -87,7 +87,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-10">
-                                    <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                    <button type="submit" id="target" class="btn btn-light btn-radius btn-brd grd1">
                                         Submit
                                     </button>
                                     <a class="for-pwd" href="javascript:;">Forgot your password?</a>
@@ -187,7 +187,7 @@
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
+                        <li><a class="hover-btn-new log orange target"  href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -727,6 +727,9 @@
             verticalStartPosition: 'left',
             visibleItems: 4
         });
+        $( "#target" ).click(function() {
+  alert( "You are Sucessfully Loged In" );
+});
     </script>
 </body>
 </html>
